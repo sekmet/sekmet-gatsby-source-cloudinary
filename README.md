@@ -1,3 +1,4 @@
+![@sekmet/gatsby-source-cloudinary](source-gatsby-cloudinany.png)
 # @sekmet/gatsby-source-cloudinary
 
 ## About this plugin
@@ -18,7 +19,6 @@ OR
 ```bash
 yarn add @sekmet/gatsby-source-cloudinary
 ```
-
 
 ## How to use
 
