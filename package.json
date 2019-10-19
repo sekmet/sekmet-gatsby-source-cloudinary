@@ -1,0 +1,45 @@
+{
+  "name": "@sekmet/gatsby-source-cloudinary",
+  "version": "0.2.4",
+  "description": "Source plugin for pulling assets into Gatsby from Cloudinary. It creates links between entry types and asset so they can be queried in Gatsby using GraphQL and creates ImageSharp nodes from your cloudinary image files that are supported by the Sharp image processing library and provides fields in their GraphQL types for processing your images in a variety of ways including resizing, cropping, and creating responsive images.",
+  "main": "gatsby-node.js",
+  "repository": "https://github.com/sekmet/sekmet-gatsby-source-cloudinary.git",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.ts' '*.js'",
+    "build": "babel --extensions '.ts' src --out-dir .",
+    "test": "exit 0",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "cloudinary",
+    "open4g",
+    "gatsby-source-cloudinary"
+  ],
+  "author": "Carlos Guimaraes",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@babel/runtime": "^7.6.3",
+    "@types/common-tags": "^1.8.0",
+    "@types/graphql": "^14.5.0",
+    "@types/lodash": "^4.14.144",
+    "cross-env": "^6.0.3",
+    "gatsby": "^2.16.4",
+    "gatsby-source-filesystem": "^2.1.33",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "gatsby-source-filesystem": "^2.1.33"
+  }
+}
