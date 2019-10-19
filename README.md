@@ -1,4 +1,4 @@
-![@sekmet/gatsby-source-cloudinary](source-gatsby-cloudinany.png)
+![@sekmet/gatsby-source-cloudinary](./docs/source-gatsby-cloudinany.png)
 # @sekmet/gatsby-source-cloudinary
 
 ## About this plugin
